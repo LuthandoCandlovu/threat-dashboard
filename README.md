@@ -71,43 +71,7 @@ Access the dashboard
 🔍 Alternative Docs: http://localhost:8000/redoc
 
 🏗️ Architecture
-graph TD
-    A[Web Browser] --> B[FastAPI Server]
-    B --> C[Threat Detection Engine]
-    C --> D[SQLite Database]
-    B --> E[RESTful API]
-    C --> F[Analysis Module]
-    D --> G[Threat Models]
-📁 Project Structure
-text
-threat-dashboard/
-├── app/
-│   ├── main.py              # FastAPI application entry point
-│   ├── database.py          # Database configuration and connection
-│   ├── models.py            # SQLAlchemy data models
-│   ├── routes.py            # API routes and endpoints
-│   ├── threat_detection.py  # Core threat analysis logic
-│   └── __init__.py
-├── tests/                   # Comprehensive test suite
-│   ├── test_routes.py
-│   └── test_models.py
-├── requirements.txt         # Python dependencies
-├── seed_data.py            # Database seeding and sample data
-├── threat.db               # SQLite database (auto-generated)
-└── README.md
-🔌 API Endpoints
-Method	Endpoint	Description	Parameters
-GET	/	Dashboard homepage	-
-GET	/threats	List all threats	limit, offset
-POST	/threats	Create new threat	Threat JSON object
-GET	/threats/{id}	Get threat details	id
-PUT	/threats/{id}	Update threat	id, Threat JSON
-DELETE	/threats/{id}	Delete threat	id
-GET	/analyze	Threat analysis	timeframe
-GET	/stats	Dashboard statistics	-
-Example API Usage
-python
-import requests
+<img width="927" height="547" alt="Image" src="https://github.com/user-attachments/assets/d8d60079-992f-4cca-b321-a6b1ff573c28" />
 
 # Get all threats
 response = requests.get("http://localhost:8000/threats")
