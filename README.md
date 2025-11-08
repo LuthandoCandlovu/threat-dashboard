@@ -72,10 +72,13 @@ Access the dashboard
 🔍 Alternative Docs: http://localhost:8000/redoc
 
 🏗️ Architecture
-
-
-
-
+graph TD
+    A[Web Browser] --> B[FastAPI Server]
+    B --> C[Threat Detection Engine]
+    C --> D[SQLite Database]
+    B --> E[RESTful API]
+    C --> F[Analysis Module]
+    D --> G[Threat Models]
 
 
 
