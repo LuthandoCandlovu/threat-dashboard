@@ -1,4 +1,4 @@
-markdown
+
 # 🛡️ Threat Intelligence Dashboard
 
 A modern, real-time threat intelligence dashboard built with FastAPI, SQLAlchemy, and Python. Monitor and analyze security threats with an intuitive web interface.
@@ -72,6 +72,157 @@ Access the dashboard
 🔍 Alternative Docs: http://localhost:8000/redoc
 
 🏗️ Architecture
+# 🛡️ Threat Intelligence Dashboard
+
+A modern, real-time threat intelligence dashboard built with FastAPI, SQLAlchemy, and Python. Monitor and analyze security threats with an intuitive web interface.
+
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
+## 📸 Dashboard Preview
+
+### Main Dashboard Interface
+<img width="1816" height="858" alt="Threat Dashboard Main Interface" src="https://github.com/user-attachments/assets/ac39883c-2a42-4b45-bce2-29e09bd6b293" />
+
+### Threat Analysis View
+<img width="1876" height="927" alt="Threat Analysis Dashboard" src="https://github.com/user-attachments/assets/97c56add-868b-4c6d-841a-9027b7a96dd9" />
+
+## ✨ Features
+
+### 🎯 Core Capabilities
+- **Real-time Threat Monitoring** - Live tracking of security threats with instant alerts
+- **Interactive Dashboard** - Clean, modern web interface with real-time updates
+- **RESTful API** - Full CRUD operations for threat data management
+- **Automated Threat Detection** - Intelligent threat analysis and pattern recognition
+- **Database Integration** - SQLite with SQLAlchemy ORM for robust data storage
+
+### 📊 Analytics & Reporting
+- **Threat Visualization** - Graphical representation of threat data
+- **Risk Assessment** - Automated risk scoring and prioritization
+- **Historical Analysis** - Trend analysis and threat pattern identification
+- **Export Capabilities** - Generate reports in multiple formats
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.8+
+- pip (Python package manager)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/LuthandoCandlovu/threat-dashboard.git
+   cd threat-dashboard
+Create virtual environment
+
+bash
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+Install dependencies
+
+bash
+pip install -r requirements.txt
+Initialize database
+
+bash
+python seed_data.py
+Run the application
+
+bash
+uvicorn app.main:app --reload
+Access the dashboard
+
+🌐 Main Application: http://localhost:8000
+
+📚 API Documentation: http://localhost:8000/docs
+
+🔍 Alternative Docs: http://localhost:8000/redoc
+
+🏗️ Architecture
+
+
+
+
+# 🛡️ Threat Intelligence Dashboard
+
+A modern, real-time threat intelligence dashboard built with FastAPI, SQLAlchemy, and Python. Monitor and analyze security threats with an intuitive web interface.
+
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
+## 📸 Dashboard Preview
+
+### Main Dashboard Interface
+<img width="1816" height="858" alt="Threat Dashboard Main Interface" src="https://github.com/user-attachments/assets/ac39883c-2a42-4b45-bce2-29e09bd6b293" />
+
+### Threat Analysis View
+<img width="1876" height="927" alt="Threat Analysis Dashboard" src="https://github.com/user-attachments/assets/97c56add-868b-4c6d-841a-9027b7a96dd9" />
+
+## ✨ Features
+
+### 🎯 Core Capabilities
+- **Real-time Threat Monitoring** - Live tracking of security threats with instant alerts
+- **Interactive Dashboard** - Clean, modern web interface with real-time updates
+- **RESTful API** - Full CRUD operations for threat data management
+- **Automated Threat Detection** - Intelligent threat analysis and pattern recognition
+- **Database Integration** - SQLite with SQLAlchemy ORM for robust data storage
+
+### 📊 Analytics & Reporting
+- **Threat Visualization** - Graphical representation of threat data
+- **Risk Assessment** - Automated risk scoring and prioritization
+- **Historical Analysis** - Trend analysis and threat pattern identification
+- **Export Capabilities** - Generate reports in multiple formats
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Python 3.8+
+- pip (Python package manager)
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/LuthandoCandlovu/threat-dashboard.git
+   cd threat-dashboard
+Create virtual environment
+
+bash
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+Install dependencies
+
+bash
+pip install -r requirements.txt
+Initialize database
+
+bash
+python seed_data.py
+Run the application
+
+bash
+uvicorn app.main:app --reload
+Access the dashboard
+
+🌐 Main Application: http://localhost:8000
+
+📚 API Documentation: http://localhost:8000/docs
+
+🔍 Alternative Docs: http://localhost:8000/redoc
+
+🏗️ Architecture
+
 graph TD
     A[Web Browser] --> B[FastAPI Server]
     B --> C[Threat Detection Engine]
@@ -79,8 +230,6 @@ graph TD
     B --> E[RESTful API]
     C --> F[Analysis Module]
     D --> G[Threat Models]
-
-
 
 📁 Project Structure
 text
